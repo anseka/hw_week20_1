@@ -1,0 +1,44 @@
+.content {
+	margin-top: 10%;
+	height: 30vh;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 20%);
+	justify-content: center;
+	justify-items: center;
+	align-content: space-between;
+}
+.container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.grid-button {
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4caf50;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	align-self: center;
+}
+
+.grid-item {
+	align-self: center;
+}
+
+#error {
+	color: red;
+}
+
+p {
+	font-size: 32px;
+}
